@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:cadetblue
+}
+
+header {
+    background-color:rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+header a {
+    text-decoration:none ;
+    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+
+header a img {
+    height: 75px;
+}
+
+header nav li {
+    display: inline;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #1e692e;
+}
+
+
+header .container {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.links {
+    margin-top: 26px;
+}
+
+.links li {
+    margin-left: 16px;
+}
+
+section .container img {
+    height: 275px;
+    border-radius: 25px;
+}
+
+#about .content {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.content p {
+    background-color:rgb(255, 255, 255);
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 20px 10px;
+    margin: 0px 8px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#cast {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Vina Sans', cursive;
+}
+
+section .container h1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.profiles {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+#cast h1 {
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    padding: 0 150px;
+    border-radius: 25px;
+}
+
+.profiles p {
+    background-color:rgb(255, 255, 255);
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 20px 10px;
+    margin: 0px 8px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+section h1 {
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #1e692e;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(255, 255, 255); ;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #1e692e;
+}
+
+form input, form textarea, form button {
+    display: flex;
+    margin: 8px 0px;
+    padding: 8px;
+    width: 250px;
+}
+
+form input:hover, form textarea:hover {
+    background-color: #81ec98;
+    transition: 0.8s;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    justify-content: center;
+    background-color:#32ad4d;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #81ec98;
+    transition: 0.8s;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #81ec98;
+    border-color: #81ec98;
+}
+
+
+
+
+
+
